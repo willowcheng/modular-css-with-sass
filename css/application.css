@@ -198,16 +198,16 @@ body {
   line-height: 1.5;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
+header {
+  text-align: center;
+  padding: 3em 0; }
+
 h1 {
   font-weight: 300;
   font-size: 2.625em;
   line-height: 1.09524;
   margin-bottom: 1.66667em;
   color: #525559; }
-
-header {
-  text-align: center;
-  padding: 3em 0; }
 
 h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -216,7 +216,11 @@ h2 {
   color: #999da1; }
 
 .site-logo {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  background-image: url("../img/logo.svg") no-repeat;
+  width: 115px;
+  height: 45px;
+  display: inline-block; }
 
 .btn--default,
 .progbar--default,
@@ -238,5 +242,12 @@ h2 {
 .progbar--info,
 .tooltip--info {
   background-color: #9279c3; }
+
+.icn-toggle {
+  width: 25px;
+  height: 17px;
+  position: absolute;
+  border-top: solid 3px #797e83;
+  border-bottom: solid 3px #797e83; }
 
 /*# sourceMappingURL=application.css.map */
