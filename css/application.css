@@ -209,6 +209,35 @@ th {
   [class^="btn--"]:active {
     opacity: initial; }
 
+.nav__item, .nav__item--current {
+  display: inline-block;
+  margin: 0 0.75em; }
+
+.nav__item a, .nav__item--current a {
+  font-size: 1.125em;
+  font-weight: 300;
+  display: block;
+  padding: 0.44444em;
+  border-bottom: 1px solid transparent; }
+
+.nav__item a:hover, .nav__item--current a {
+  color: #0b0b0b;
+  border-color: #52bab3; }
+
+h1, .headline-primary, .headline-primary--grouped {
+  color: #525559;
+  font-weight: 300;
+  font-size: 2.625em;
+  line-height: 1.09524;
+  margin-top: 0; }
+
+h2, .headline-secondary, .headline-secondary--grouped {
+  color: #999da1;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 1.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -222,19 +251,6 @@ body {
 header {
   text-align: center;
   padding: 3em 0; }
-
-h1 {
-  font-weight: 300;
-  font-size: 2.625em;
-  line-height: 1.09524;
-  margin-bottom: 1.66667em;
-  color: #525559; }
-
-h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 1.5em;
-  color: #999da1; }
 
 h3 {
   font-size: 1.125em; }
@@ -252,6 +268,20 @@ a {
   color: #656a6e;
   text-decoration: none;
   font-weight: 400; }
+
+p {
+  font-size: 1.125em;
+  line-height: 1.5;
+  margin: 0 0 1.66667em;
+  font-weight: 300; }
+
+blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 300;
+  margin: 1.33333em 0;
+  padding: 0 0 0 5%;
+  border-left: solid 0.33333em #ebecec; }
 
 ul,
 li {
@@ -318,18 +348,17 @@ button {
 .nav {
   margin-top: 1.25em;
   margin-bottom: 1.875em; }
-  .nav__item {
-    display: inline-block;
-    margin: 0 0.75em; }
-    .nav__item a {
-      font-size: 1.125em;
-      font-weight: 300;
-      color: #797e83;
-      display: block;
-      padding: 0.44444em;
-      border-bottom: 1px solid transparent; }
-    .nav__item--current a {
-      color: #0b0b0b;
-      border-color: #52bab3; }
+  .nav__item a {
+    color: #797e83; }
+
+.headline-primary {
+  margin-bottom: 1.66667em; }
+  .headline-primary--grouped {
+    margin-bottom: 0; }
+.headline-secondary {
+  margin-bottom: 0.91667em; }
+  .headline-secondary--grouped {
+    margin-top: 0.41667em;
+    margin-bottom: 2.25em; }
 
 /*# sourceMappingURL=application.css.map */
