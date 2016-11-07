@@ -29,20 +29,19 @@
 		}
 	}
 }
-  
+
 @mixin img-replace($img, $w, $h, $disp: block) {
-   background-image: url('#{$path--rel}/#{$img}');
-   background-repeat: no-repeat;
-   width: $w;
-   height: $h;
-   display: $disp;
+	background-image: url('#{$path--rel}/#{$img}');
+	background-repeat: no-repeat;
+	width: $w;
+	height: $h;
+	display: $disp;
 }
-   
+			
 @mixin p-el(
-    $el,
-    $el-w: null,
-    $el-h: null) {
-    
+  $el,
+  $el-w: null,
+  $el-h: null) {
     @if $el == "before" or $el == "after" {
       &:#{$el} {
         @extend %pseudos;
@@ -50,11 +49,11 @@
         height: $el-h;
         @content;
       }
-     }
-     @else {
+    }
+    @else {
       @error "`#{$el}` is not a valid pseudo-element.";
-     }     
+    }
 }
-   
-   
-  
+          
+// BEM selectors
+          

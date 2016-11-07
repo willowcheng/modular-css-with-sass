@@ -18,9 +18,9 @@ $font-weight--ultra-bold : 900;
 
 // Descriptive Base Colors
 
-$white    : #fff;
-$black    : #0b0b0b;
-$grey     : #797e83;
+$white : #fff;
+$black : #0b0b0b;
+$grey  : #797e83;
 
 $fountain-blue  : #52bab3;
 $emerald        : #5ece7f;
@@ -68,6 +68,16 @@ $ui-colors: (
 
 $base__font-size : 16px;
 $base__line      : 24px;
+$letter-space    : 1px;
+
+// Border radius
+
+$br--default     : .4em;
+$br--round       : 50%;
+
+// Transitions
+
+$trns-duration   : .3s;
 
 // Path to Assets
 
